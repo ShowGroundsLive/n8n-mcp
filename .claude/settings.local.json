@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl --version)",
+      "WebSearch",
+      "WebFetch(domain:docs.n8n.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:deepwiki.com)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const {z} = require\\(''zod''\\); console.log\\(typeof z.string, typeof z.record, typeof z.enum\\); const s = z.string\\(\\); console.log\\(''string works''\\); const r = z.record\\(z.string\\(\\), z.unknown\\(\\)\\); console.log\\(''record works''\\);\")",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(npm run:*)",
+      "Bash(node dist/index.js)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(N8N_API_URL=http://localhost:5678 N8N_API_KEY=test timeout 2 node dist/index.js)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:docs.fossorial.io)",
+      "WebFetch(domain:docs.pangolin.net)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pangolin.showgroundslive.com)",
+      "Bash(gh api:*)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "Bash(git -C /Users/wrosner/Projects/n8n-mcp diff master..pangolin-mcp-design --stat)",
+      "mcp__pangolin__manage_resources",
+      "mcp__portainer__manage_stacks",
+      "mcp__portainer__manage_containers",
+      "Read(//Users/wrosner/Projects/**)",
+      "Bash(ls -d *mcp*)",
+      "Bash(git stash *)",
+      "Bash(git rm *)"
+    ]
+  }
+}
