@@ -4,7 +4,7 @@ services:
     container_name: n8n-mcp
     restart: unless-stopped
     ports:
-      - "3106:3000"
+      - "3107:3000"
     volumes:
       - oauth-data:/data
     environment:
